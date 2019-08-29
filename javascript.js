@@ -21,6 +21,6 @@ function newQuote2() {
 function newQuote() {
   rand1 = Math.floor(Math.random()*(4));
 
-  document.getElementById('scanStatus').innerHTML = "Scan Started. \n Viruses found in last searched folder:"+rand1;
+  document.getElementById('scanStatus').innerHTML = "Scan Started. \n Viruses removed from last searched folder: "+rand1;
   document.getElementById('timeStatus').innerHTML = "\nEstimated finish time: " + Math.floor(minutesUntilMidnight()) +" minutes. Please do not use change any files in this time";
 }
